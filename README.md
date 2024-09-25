@@ -156,6 +156,43 @@ Bisa kita lihat kalau digambar menampilkan daftar proses yang sedang berjalan di
 Lalu periksa kembali menggunakan command PS X untuk melihat perbandingannya
 <img src = https://github.com/user-attachments/assets/1f501f5d-e113-4511-b692-586c52b8aede width=500><br/>
 
+6. History  <br/>
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20  <br/>
+$ HISTSIZE=20  <br/>
+$ h  <br/>
+jawab: <br/>
+<img src = https://github.com/user-attachments/assets/c624224f-b8df-49c3-a3ee-75330f2d0ad8 width=500><br/>
+
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir 
+dilakukan<br/><br/>  
+$ !-5  <br/>
+jawab: <br/>
+<img src = https://github.com/user-attachments/assets/d6af9c62-3095-4e89-a810-b02d436cc363 width=500><br/>
+
+c. Ulangi instruksi yang terakhir.  Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer  <br/>
+$ !!  <br/>
+jawab: <br/>
+<img src = https://github.com/user-attachments/assets/f6fa8edf-1030-4eb7-909a-8a20b79855ec width=500><br/>
+
+d.  Ulangi instruksi pada history bufer nomor 150  <br/>
+$ !150  <br/>
+jawab: <br/>
+disini saya menggunakan command pada history yang berbeda di bufer nomor 246 <br/>
+<img src = https://github.com/user-attachments/assets/e710304a-4091-4251-bc50-fa6212f3c6ca width=500><br/>
+<img src = https://github.com/user-attachments/assets/f42cc0e0-d2d0-42b4-be22-963b1354d98a width=500><br/>
+
+e.  Ulangi instruksi dengan prefix “ls”  <br/>
+$ !ls <br/>
+jawab: <br/>
+<img src = https://github.com/user-attachments/assets/735c324e-0106-4f94-bef1-57c57a2bc4bd width=500><br/>
+
+
+
+
+
+
+
+
 
 
 
